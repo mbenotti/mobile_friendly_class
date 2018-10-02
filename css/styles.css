@@ -1,0 +1,46 @@
+.container-fluid {
+  background-color: #ffff00; /*yellow*/
+  padding-top: 50px;
+}
+.container {
+  margin-bottom: 50px;
+}
+.row-header {
+  height: 150px;
+  padding-top: 10px;
+  background-color: #0000ff; /*blue*/
+  border: solid 1px black;
+}
+.row-nav {
+  height: 60px;
+  color: #949dac; /*dark gray*/
+  padding-top: 10px;
+  background-color: #008000; /*green*/
+  border: solid 1px black;
+}
+.content {
+  height: 130px;
+  color: #949dac; /*dark gray*/
+  padding-top: 10px;
+  background-color: #ff0000; /*red*/
+  border: solid 1px black;
+}
+.aside {
+  height: 130px;
+  color: #949dac; /*dark gray*/
+  padding-top: 10px;
+  background-color: #00ffff; /*aqua*/
+  border: solid 1px black;
+}
+.promo {
+  height: 130px;
+  padding-top: 10px;
+  background-color: #ffa500; /*orange*/
+  border: solid 1px black;
+}
+.row-footer {
+  height: 60px;
+  padding-top: 10px;
+  background-color: #000000; /*black*/
+  color: white;
+  }
