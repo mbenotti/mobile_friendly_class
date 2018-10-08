@@ -5,13 +5,13 @@
 .container {
   margin-bottom: 50px;
 }
-.row-header {
+.header {
   height: 150px;
   padding-top: 10px;
   background-color: #0000ff; /*blue*/
   border: solid 1px black;
 }
-.row-nav {
+.nav {
   height: 60px;
   color: #949dac; /*dark gray*/
   padding-top: 10px;
@@ -38,9 +38,20 @@
   background-color: #ffa500; /*orange*/
   border: solid 1px black;
 }
-.row-footer {
+.footer {
   height: 60px;
   padding-top: 10px;
   background-color: #000000; /*black*/
   color: white;
   }
+  @media only screen and (min-width: 768px) {
+    .header {
+     background-color: #ffa500; /*orange*/
+  }
+    }
+  @media only screen and (min-width: 875px) {
+    .promo {
+      background-color: purple;
+    }
+  }
+    /*add media queries so the blocks change colors at min 768px and again at min 875px*/
